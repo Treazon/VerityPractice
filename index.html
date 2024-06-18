@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salvation's Edge - Verity - Practice</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Salvation's Edge - Verity - Practice</h1>
+    <button id="startButton">Start</button>
+    <div id="calledShapes">
+        <h2>INSIDE CALLS OUT:</h2>
+        <h2 id="calledShapesDisplay">N/A</h2>
+    </div>
+    <div id="game">
+        <div class="statue" id="statue1">
+            <h2>Statue 1</h2>
+            <p>Shape: <span class="shape">Sphere</span></p>
+            <select class="swap-select" data-statue="1">
+                <option value="">Select 2D Shape</option>
+                <option value="Circle">Circle</option>
+                <option value="Square">Square</option>
+                <option value="Triangle">Triangle</option>
+            </select>
+        </div>
+        <div class="statue" id="statue2">
+            <h2>Statue 2</h2>
+            <p>Shape: <span class="shape">Prism</span></p>
+            <select class="swap-select" data-statue="2">
+                <option value="">Select 2D Shape</option>
+                <option value="Circle">Circle</option>
+                <option value="Square">Square</option>
+                <option value="Triangle">Triangle</option>
+            </select>
+        </div>
+        <div class="statue" id="statue3">
+            <h2>Statue 3</h2>
+            <p>Shape: <span class="shape">Cube</span></p>
+            <select class="swap-select" data-statue="3">
+                <option value="">Select 2D Shape</option>
+                <option value="Circle">Circle</option>
+                <option value="Square">Square</option>
+                <option value="Triangle">Triangle</option>
+            </select>
+        </div>
+    </div>
+    <div id="result" style="display:none;">
+        <h2>WELL DONE!</h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
